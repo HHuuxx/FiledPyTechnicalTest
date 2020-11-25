@@ -15,7 +15,7 @@ Linux and Mac:
 
 ```sh
 $ source .\Filed\bin\activate
-$ NODE_ENV=production node app
+$ py run.py
 ```
 
 if you need to create new or another environment:
