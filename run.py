@@ -5,7 +5,7 @@ from decimal import Decimal
 app = Flask(__name__)
 
 @app.route("/", methods=["POST"])
-def parse_request():
+def ProcessPayment():
     CreditCardNumber = request.form.get("CreditCardNumber", None)
     CardHolder = request.form.get("CardHolder", None)
     ExpirationDate = request.form.get("ExpirationDate", None)
